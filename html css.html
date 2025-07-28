@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        html,body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            height:100%;
+            
+            
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+
+        header,footer{
+            background-color: #ddd;
+            text-align: center;
+            padding:20px;
+            font-size: 24px;
+        }
+
+        .container{
+            padding:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex:1;
+        }
+
+        .top-boxes, .bottom-boxes{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin:10px;
+
+        }
+
+        .top-boxes div{
+            width:150px;
+            height:80px;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: -40px;
+            margin-bottom: 80px;
+            justify-content: center;
+            text-align: center;
+            line-height: 70px;
+            
+           
+           
+        }
+
+        .bottom-boxes div{
+            width:150px;
+            height:250px;
+            background-color: lightgreen;
+            display: flex;
+           justify-content: space-around;
+           
+            margin-top:60px;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            line-height: 150px;
+           
+            
+
+        }
+    </style>
+</head>
+<body>
+    <header>top</header>
+
+    <div class="container">
+        <div class="top-boxes">
+            <div>box1</div>
+            <div>box2</div>
+            <div>box3</div>
+            
+        </div>
+
+        <div class="bottom-boxes">
+            <div>solution1</div>
+            <div>solution2</div>
+            <div>solution3</div>
+
+            
+        </div>
+    </div>
+
+    <footer>footer</footer>
+    
+</body>
+</html>

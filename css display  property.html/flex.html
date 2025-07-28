@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex</title>
+
+    <style>
+        .outerbox {
+            background-color: beige;
+            min-height: 400px;
+            display: flex;
+            justify-content: center;
+
+
+            align-items: center;
+
+        }
+
+        .box {
+            width: 180px;
+            height: 180px;
+
+            background-color: blue;
+            border: 2px solid white;
+
+        }
+
+        .box1 {
+            flex-shrink: 0;
+        }
+
+        .box2 {
+            flex-grow: 2;
+            flex-basis: 0;
+
+        }
+
+        .box4 {
+            flex-grow: 1;
+            flex-basis: 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outerbox">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+
+
+
+    <div class="container">
+        <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est sunt placeat culpa, inventore
+            tenetur quam deleniti id cumque repellendus ad, natus incidunt quo architecto perspiciatis ratione, omnis
+            delectus. Perferendis, quis?</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam eos officia
+            consectetur beatae quidem ab cumque rerum aperiam sit deserunt hic. Quibusdam animi fuga officiis voluptatem
+            perspiciatis non tempore.</p>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos a voluptatem accusantium?
+            Nisi quas eligendi ex reprehenderit minus dolor accusamus, maiores facilis ad nobis tempora, vel, suscipit
+            perferendis! Amet?</p>
+    </div>
+
+
+</body>
+
+</html>

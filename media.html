@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        .para1{
+            background-color: aqua;
+            
+        }
+
+        .para2{
+            background-color: blueviolet;
+
+        }
+
+        .para3{
+            background-color: brown;
+        }
+
+        @media  all and (min-width:801px) {
+            .container p{
+                width:30%;
+                float:left;
+                padding:10px;
+            }
+        }
+
+        @media print {
+            background-color: none;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum blanditiis aperiam consequuntur possimus amet odio ut aut laborum ex sed iure, labore sunt neque ipsum laudantium unde. Temporibus, commodi?</p>
+        <p class="para2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates vel rerum asperiores ea adipisci blanditiis ipsam voluptas totam esse eum eveniet excepturi facilis, reiciendis fugit natus nobis illo autem odio.</p>
+        <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate minus numquam delectus in possimus! Tempora modi, repellat mollitia sunt illum laboriosam esse vel. Placeat quisquam rem distinctio esse ea?</p>
+
+    </div>
+    
+</body>
+</html>

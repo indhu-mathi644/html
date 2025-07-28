@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table.one{
+            border-collapse: collapse;
+            border-spacing: 10px;
+            empty-cells: hide;
+            table-layout: auto;
+            caption-side:top;
+        }
+
+        table.two{
+            border-collapse:separate;
+            border-spacing: 10px 30px;
+            empty-cells: show;
+            table-layout: fixed;
+            caption-side: bottom;
+        }
+
+        table,td,th{
+            border: 1.5px solid blue;
+            width: 80px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>table 1</h1>
+    <table class="one">
+        <tr>
+            <th>roll no</th>
+            <th>name</th>
+        </tr>
+
+        <tr>
+            <td>100</td>
+            <td>indhu</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>mathi</td>
+
+            
+        </tr>
+
+        
+
+    </table>
+    <br>
+    <br>
+    <h2>table 2</h2>
+    <table class="two">
+
+        <tr>
+            <th>roll no</th>
+            <th>name</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>shan</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>indhu mathi</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

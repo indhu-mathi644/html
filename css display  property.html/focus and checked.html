@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus and checked</title>
+    <style>
+        input:focus{
+            background-color: orangered;
+            border:10px solid black;
+             
+        }
+
+        input:checked{
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">enter your name</label>
+        <input type="text" id="name" name="=name" placeholder="indhu"><br><br>
+
+        <label for="phone">enter your phone num</label>
+        <input type="tel" id="phone" name="phone " placeholder="123455"><br><br>
+
+        <label for="lang">select your language:</label><br><br>
+        <input type="checkbox" id="java" name="lang" value="java">
+
+        <label for="java">java</label>
+        <input type="checkbox" id="c" name="lang" value="c">
+        <label for="c">c program</label>
+    </form>
+    
+</body>
+</html>

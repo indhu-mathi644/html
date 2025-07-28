@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        .para1::first-line{
+            color:red;
+
+        }
+
+        .para2::first-letter{
+            color:darkgreen;
+            font-size: 2rem;
+            font-weight: bold;
+
+        }
+
+        .para2::before{
+            content:'😘😘';
+        }
+
+        .para2::after{
+            content:'pseudo elements one of the easisest topic';
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+       ::marker{
+        color: magenta;
+       }
+
+       ul li::marker{
+        color:brown;
+       }
+
+       .para3::selection{
+        color:red;
+        background-color: orange;
+       }
+
+        
+    </style>
+</head>
+<body>
+    <p class="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, dolorem, porro quae cumque enim, iure accusantium quas nostrum veritatis perspiciatis omnis neque? Expedita molestias cupiditate odio tempora alias reprehenderit minus corporis eos. Magni ipsa adipisci vero magnam, doloremque voluptatum ipsam nostrum tempora voluptatem nisi accusantium nesciunt esse qui soluta ut sit. Nostrum maxime sed laudantium odit laborum recusandae, odio ad eius quod doloribus commodi illo facere esse praesentium dolor blanditiis nulla similique placeat pariatur possimus, repellat temporibus deleniti? Suscipit, repudiandae veritatis neque, facilis placeat ducimus sint qui, fuga ad maxime totam! Fuga ipsam ea incidunt perspiciatis quaerat neque illum velit?</p>
+    <p class="para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel odio itaque debitis veritatis voluptatum! Impedit mollitia eos, nemo perspiciatis modi veritatis provident eum cupiditate laborum dolores ratione repudiandae saepe sequi error blanditiis porro praesentium. Neque impedit magni saepe ea doloremque incidunt quas repellat harum delectus sunt. Aspernatur voluptatem esse officiis.</p>
+    <p class="para3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam enim similique dicta maxime labore impedit non quia asperiores molestias necessitatibus ab, tempora assumenda delectus eum expedita error, quod alias culpa optio voluptas, harum vero modi magni neque. Inventore, blanditiis ratione cupiditate laboriosam repudiandae assumenda enim dignissimos doloribus ipsa laborum earum repellat veniam, eius repellendus, placeat rem obcaecati ea officiis necessitatibus sint eveniet. Qui doloremque iste eius magnam laborum nesciunt in sequi quam eligendi consequatur! Numquam reiciendis quod dolores esse perferendis a ad nemo optio sed, dolor odio necessitatibus unde rem illum aut accusantium eveniet, adipisci exercitationem expedita quis doloribus? Labore?</p>
+    <ul>
+        <li>mango</li>
+        <li>grapes</li>
+        <li>orange</li>
+    </ul>
+
+    <ol>
+        <li>fried rice</li>
+        <li>bririyani</li>
+        <li>kfc</li>
+    </ol>
+</body>
+</html>
